@@ -38,6 +38,15 @@ public class Add {
     }
 
     public double getAverageOfEven(List<Integer> arrayList) {
-        throw new NotImplementedException();
+       // throw new NotImplementedException();
+    	int sum = 0;
+    	int count = 0;
+    	for(int i :arrayList) {
+    		if(i%2==0) {
+    			sum+=i;
+    			count++;
+    		}
+    	}
+    	return sum/count;
     }
 }
