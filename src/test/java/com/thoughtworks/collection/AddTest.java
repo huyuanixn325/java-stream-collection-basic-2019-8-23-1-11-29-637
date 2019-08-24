@@ -1,11 +1,12 @@
 package com.thoughtworks.collection;
 
-import org.junit.Test;
+
+import static org.fest.assertions.api.Assertions.assertThat;
 
 import java.util.Arrays;
 import java.util.List;
 
-import static org.fest.assertions.api.Assertions.assertThat;
+import org.junit.jupiter.api.Test;
 
 public class AddTest {
 

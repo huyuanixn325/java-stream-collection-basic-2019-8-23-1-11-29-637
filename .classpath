@@ -14,5 +14,7 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.buildship.core.gradleclasspathcontainer"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
+	<classpathentry kind="lib" path="D:/fest-assert-core-2.0m10.jar/fest-assert-core-2.0m10.jar"/>
 	<classpathentry kind="output" path="bin/default"/>
 </classpath>

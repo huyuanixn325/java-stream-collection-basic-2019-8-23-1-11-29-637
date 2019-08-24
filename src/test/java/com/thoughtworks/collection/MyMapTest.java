@@ -18,7 +18,7 @@ public class MyMapTest {
 
         Integer[] result = new Integer[]{5, 4, 3, 2, 1};
         List<Integer> resultList = Arrays.asList(result);
-
+        
         assertThat(myMap.sortFromBig()).isEqualTo(resultList);
     }
 
